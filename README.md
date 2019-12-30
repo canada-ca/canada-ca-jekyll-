@@ -11,7 +11,7 @@ A repository set as a Jekyll boilerplate to build a site with the Canada.ca temp
 3. Create your pages
 4. View your site under username.github.io/repository-name
 
-# Vanity URL
+## Vanity URL
 
 There's three way to do it:
 
