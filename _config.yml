@@ -9,7 +9,24 @@
 # 8. Site navigation
 
 # 1. Files excluded from Jekyll builds
-exclude: [ "README.md", "CODE_OF_CONDUCT.md", "CONTRIBUTING.md", "screenshot.png", "LICENSE.*", "SECURITY.md", "CNAME", "Gemfile", "Gemfile.lock", "gcweb-jekyll.gemspec", ".jekyll-cache", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/", .github]
+exclude: 
+  - README.md
+    CODE_OF_CONDUCT.md
+    CONTRIBUTING.md
+    screenshot.png
+    LICENSE.*
+    SECURITY.md
+    CNAME
+    Gemfile
+    Gemfile.lock
+    gcweb-jekyll.gemspec
+    .jekyll-cache
+    node_modules
+    vendor/bundle/
+    vendor/cache/
+    vendor/gems/
+    vendor/ruby/
+    .github
 
 # 2. Installed Gems
 plugins: 
@@ -19,7 +36,7 @@ plugins:
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 quiet: false
 permalink: pretty  # Permalink style (/page-name/)
-remote_theme: wet-boew/gcweb-jekyll@v1.0.0
+remote_theme: wet-boew/gcweb-jekyll
 sass:
   style: compressed # Style compression
 timezone: America/Toronto # Timezone for blog posts and alike
