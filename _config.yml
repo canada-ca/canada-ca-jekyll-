@@ -16,14 +16,15 @@ plugins:
   - jekyll-remote-theme
 
 # 3. Jekyll settings
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+quiet: false
+permalink: pretty  # Permalink style (/page-name/)
+remote_theme: wet-boew/gcweb-jekyll@v1.0.0
 sass:
   style: compressed # Style compression
-permalink: pretty  # Permalink style (/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/Toronto # Timezone for blog posts and alike
-quiet: false
-verbose: true
 themeJS: true
+verbose: true
 
 # 4. Collections
 collections:
@@ -45,7 +46,6 @@ defaults:
 
 # 6. Site settings
 assets: "https://wet-boew.github.io/themes-dist"
-remote_jekyll: wet-boew/gcweb-jekyll
 encoding: utf-8 # Make sure the encoding is right
 lang: en-CA # Set the site language
 title: "gcweb-jekyll" # Site name or title, also used in jekyll-seo-tag

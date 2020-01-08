@@ -5,7 +5,7 @@ _site/
 *.tmp
 .bundle
 Gemfile.lock
-
+vendor
 .DS_Store
 */.DS_Store
 .vscode
