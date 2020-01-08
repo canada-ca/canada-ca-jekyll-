@@ -37,8 +37,6 @@ excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 quiet: false
 permalink: pretty  # Permalink style (/page-name/)
 remote_theme: wet-boew/gcweb-jekyll
-sass:
-  style: compressed # Style compression
 timezone: America/Toronto # Timezone for blog posts and alike
 themeJS: true
 verbose: true
