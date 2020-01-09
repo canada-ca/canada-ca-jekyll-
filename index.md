@@ -8,7 +8,7 @@ description:
 layout: default
 lang: en
 langtoggle: true
-permalink: http://canada.ca
+# permalink: http://canada.ca
 sitemenu: true
 sitesearch: true
 title: Test page - Canada.ca
