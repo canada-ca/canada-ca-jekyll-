@@ -1,6 +1,15 @@
 ---
+authorName: Treasury Board Secretariat
+authorUrl: http://canada.ca
 contentTitle: Test page
+description:
+  en: This is a test page
+  fr: Ceci est une page d'essai
 layout: default
+lang: en
+permalink: http://canada.ca
+title: Test page - Canada.ca
+
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
