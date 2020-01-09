@@ -12,7 +12,6 @@ permalink: http://canada.ca
 sitemenu: true
 sitesearch: true
 title: Test page - Canada.ca
-
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
