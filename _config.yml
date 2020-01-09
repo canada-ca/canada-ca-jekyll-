@@ -75,6 +75,7 @@ email: " "
 # google_analytics_anonymize_ip: ''
 # service_worker: false # Will turn off the service worker if set to false
 css_inline: false # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+theme-name: GCWeb
 
 # 7. Site favicons and manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
