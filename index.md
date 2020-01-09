@@ -7,7 +7,10 @@ description:
   fr: Ceci est une page d'essai
 layout: default
 lang: en
+langtoggle: true
 permalink: http://canada.ca
+sitemenu: true
+sitesearch: true
 title: Test page - Canada.ca
 
 ---
