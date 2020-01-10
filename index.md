@@ -4,9 +4,6 @@ authorName: Treasury Board Secretariat
 authorUrl: http://canada.ca
 contentTitle: Test page
 css:
-  - url: "https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity: "sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-    x-origin: "anonymous"
   - url: "./assets/css/custom.css"
 description:
   en: This is a test page
