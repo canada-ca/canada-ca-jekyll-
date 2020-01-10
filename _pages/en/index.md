@@ -3,12 +3,11 @@ altLangPrefix: index
 authorName: Treasury Board Secretariat
 authorUrl: http://canada.ca
 contentTitle: Test page
-css:
-  - url: "./assets/css/custom.css"
 description:
   en: This is a test page
   fr: Ceci est une page d'essai
 lang: en
+pageclass: wb-prettify all-pre
 title: Test page - Canada.ca
 ---
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
@@ -105,7 +104,7 @@ end
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Branching](https://guides.github.com/activities/hello-world/branching.png){: .img-responsive}
 
 
 ### Definition lists can be used with HTML syntax.
