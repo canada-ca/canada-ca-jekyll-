@@ -247,6 +247,7 @@ defaults:
       langtoggle: true
       noMainContainer: false
       noContentTitle: false
+      permalink: /:basename:output_ext
       share: true
       sitemenu: true
       sitesearch: true
