@@ -34,9 +34,9 @@ collections:
         name: "home"
         file: "site/content/home.yml"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "markdown"}
-          - {label: }
+          - {label: "Title", name: "contentTitle", widget: "string"}
+          - {label: "Byline", name: "byline", widget: "markdown"}
+          - {label: "Most requested" , name: "tmpl-most-requested-item", widget: "array"}
           - label: "Team"
             name: "team"
             widget: "list"
