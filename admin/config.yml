@@ -1,7 +1,5 @@
 backend:
-  name: "git-gateway"
-  branch: "backend" # Branch to update (optional; defaults to master)
-  open_authoring: true
+  name: git-gateway
 
 # This line should *not* be indented
 publish_mode: "editorial_workflow"
