@@ -36,7 +36,7 @@ collections:
         fields:
           - {label: "Title", name: "contentTitle", widget: "string"}
           - {label: "Byline", name: "byline", widget: "markdown"}
-          - {label: "Most requested" , name: "tmpl-most-requested-item", widget: "array"}
+          - {label: "Most requested", name: "tmpl-most-requested-item", widget: "array"}
           - label: "Team"
             name: "team"
             widget: "list"
