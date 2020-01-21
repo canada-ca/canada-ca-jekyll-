@@ -9,6 +9,7 @@
     fr: Le site Web du gouvernement du Canada fournit un point d'accès complet à tous les programmes, services, départements, ministères et organismes du gouvernement du Canada.
   lang: en
   pageclass: splash
+  permalink: /
   section: message
   subject:
     en: Government of Canada, services
