@@ -5,8 +5,6 @@
 # 4. Collections
 # 5. Jekyll collections settings
 # 6. Site settings
-# 7. Site favicons and manifest icons
-# 8. Site navigation
 
 # 1. Files excluded from Jekyll builds
 exclude: 
@@ -34,7 +32,7 @@ plugins:
   - jekyll-remote-theme
 
 # 3. Jekyll settings
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+include: ["_pages"]
 quiet: false
 remote_theme: wet-boew/gcweb-jekyll
 timezone: America/Toronto # Timezone for blog posts and alike
@@ -42,14 +40,6 @@ themeJS: true
 verbose: true
 
 # 4. Collections
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: "Jekyll variant for GCweb theme" # The post list page content
-    feature_text: |
-      Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 5. Jekyll collections settings
 defaults:
@@ -247,38 +237,21 @@ defaults:
       langtoggle: true
       noMainContainer: false
       noContentTitle: false
-      permalink: /:basename:output_ext
+      permalink: :path/:basename
       share: true
       sitemenu: true
       sitesearch: true
 
 # 6. Site settings
+analytics_google: ""
+analytics_google_anonymize_ip: ""
 assets: "https://wet-boew.github.io/themes-dist"
+baseurl: ""
+css_inline: false # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+description: "A Jekyll boilerplate to build a site with the Canada.ca template from GCWeb-Jekyll (wet-boew/gcweb-jekyll)" # Site description and default description, also used in jekyll-seo-tag
+email: ""
 encoding: utf-8 # Make sure the encoding is right
 lang: en-CA # Set the site language
-title: "gcweb-jekyll" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "A Jekyll boilerplate to build a site with the Canada.ca template from GCWeb-Jekyll (wet-boew/gcweb-jekyll)" # Site description and default description, also used in jekyll-seo-tag
-url: "https://canada.ca" # Site url, also used in jekyll-seo-tag
-baseurl: ""
-repo: "https://github.com/wet-boew/gcweb-jekyll"
-email: " "
-# disqus: " " # Blog post comments, uncomment the option and set the site ID from your Disqus account
-# google_analytics: ''
-# google_analytics_anonymize_ip: ''
-# service_worker: false # Will turn off the service worker if set to false
-css_inline: false # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+languages: ["en", "fr"]
 theme-name: GCWeb
-
-# 7. Site favicons and manifest icons
-favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  # 16: '/assets/logos/logo@16px.png'
-  # 32: '/assets/logos/logo@32px.png'
-  # 96: '/assets/logos/logo@96px.png'
-  # 120: '/assets/logos/logo@120px.png'
-  # 144: '/assets/logos/logo@144px.png'
-  # 180: '/assets/logos/logo@180px.png'
-  # 512: '/assets/logos/logo@512px.png'
-  # 1024: '/assets/logos/logo@1024px.png'
-
-# 8. Site navigation
+title: "gcweb-jekyll" # Site name or title, also used in jekyll-seo-tag

@@ -8,7 +8,7 @@ A repository set as a Jekyll boilerplate to build a site with the Canada.ca temp
 
 1. Fork it!
 2. Setup _config.yml
-3. Create your pages
+3. Create your pages in `_pages[language]`
 4. Turn on Github pages in your repo settings
 5. View your site under username.github.io/repository-name
 
