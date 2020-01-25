@@ -35,3 +35,11 @@ Un repo configuré en tant qu'un gabarit Jekyll pour bâtir un site avec le thè
 3. Créez vos pages dans `_pages[langue]`
 4. Activez les pages Github dans vos paramètres de repo
 5. Affichez votre site sous nom-usager.github.io/nom-repo
+
+## URL personnalisée
+
+Il y a trois façons de le faire:
+
+1. Domaine personnalisé
+2. Sous-domaine Canada.ca
+3. Redirigez depuis votredomaine.ca/permalink
