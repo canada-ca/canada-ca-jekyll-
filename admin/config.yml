@@ -16,8 +16,9 @@ collections:
       - {label: "Content", name: "body", widget: "markdown"}
       - {label: "French equivalent", name: "altLangFile", widget: "string"}
     folder: "_pages/en"
-    name: "pages-en"
+    identifier_field: title
     label: "Pages in English"
+    name: "pages-en"
   - create: true
     filter: {field: "language", value: "fr"}
     fields:
@@ -26,14 +27,6 @@ collections:
       - {label: "Contenu", name: "body", widget: "markdown"}
       - {label: "Équivalent en anglais", name: "altLangFile", widget: "string"}
     folder: "_pages/fr"
+    identifier_field: title
     label: "Pages en français"
     name: "pages-fr"
-  - create: true
-    label: "Bilingual pages"
-    name: "documents"
-    folder: "_pages/documents"
-    fields:
-      - {label: "English title", name: "title-en", widget: "string"}
-      - {label: "English content", name: "body-en", widget: "markdown"}
-      - {label: "French title", name: "title-fr", widget: "string"}
-      - {label: "French content", name: "body-fr", widget: "markdown"}
