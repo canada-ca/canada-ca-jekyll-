@@ -8,12 +8,32 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - label: "Pages in English"
-    name: "pages-en"
-    folder: "_pages/en"
+  - create: true
     filter: {field: "language", value: "en"}
     fields:
       - {label: "Language", name: "language", widget: "select", options: ["en", "fr"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Content", name: "body", widget: "markdown"}
       - {label: "French equivalent", name: "altLangFile", widget: "string"}
+    folder: "_pages/en"
+    name: "pages-en"
+    label: "Pages in English"
+  - create: true
+    filter: {field: "language", value: "fr"}
+    fields:
+      - {label: "Langue", name: "language", widget: "select", options: ["en", "fr"]}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+      - {label: "Équivalent en anglais", name: "altLangFile", widget: "string"}
+    folder: "_pages/fr"
+    label: "Pages en français"
+    name: "pages-fr"
+  - create: true
+    label: "Bilingual pages"
+    name: "documents"
+    folder: "_pages/documents"
+    fields:
+      - {label: "English title", name: "title-en", widget: "string"}
+      - {label: "English content", name: "body-en", widget: "markdown"}
+      - {label: "French title", name: "title-fr", widget: "string"}
+      - {label: "French content", name: "body-fr", widget: "markdown"}
