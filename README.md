@@ -28,4 +28,10 @@ ______________________
 
 # Gabarit Jekyll Canada.ca
 
-Contenu en français à venir
+Un repo configuré en tant qu'un gabarit Jekyll pour bâtir un site avec le thème visuel de Canada.ca.
+
+1. Fourchez-le!
+2. Configurez _config.yml
+3. Créez vos pages dans `_pages[langue]`
+4. Activez les pages Github dans vos paramètres de repo
+5. Affichez votre site sous nom-usager.github.io/nom-repo
