@@ -1,4 +1,4 @@
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md) ![Jekyll site CI](https://github.com/canada-ca/canada-ca-jekyll-boilerplate/workflows/Jekyll%20site%20CI/badge.svg?branch=master)
 
 ([Français](#Gabarit-Jekyll-Canada.ca))
 
@@ -22,7 +22,7 @@ There's three way to do it:
 
 ______________________
 
-[![Pacte des contributeurs](https://img.shields.io/badge/Pacte%20des%20contributeurs-v1.4%20adoptée-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![Pacte des contributeurs](https://img.shields.io/badge/Pacte%20des%20contributeurs-v1.4%20adoptée-ff69b4.svg)](CODE_OF_CONDUCT.md) ![Jekyll site CI](https://github.com/canada-ca/canada-ca-jekyll-boilerplate/workflows/Jekyll%20site%20CI/badge.svg?branch=master)
 
 ([English](#Canada.ca-Jekyll-boilerplate))
 
